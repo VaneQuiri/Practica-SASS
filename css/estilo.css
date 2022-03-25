@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.barra {
+  background-color: black;
+}
+
+.barra-nav {
+  border-style: double;
+  border-color: brown;
+}
+
+.barra-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.barra-nav-items li {
+  font-family: "Secular One", sans-serif;
+  margin-top: 15px;
+  list-style-type: none;
+  color: bisque;
+}
+
+.barra-nav-items li:hover {
+  color: red;
+}
+
+.principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100% auto;
+  background-color: black;
+}
+
+.principal-texto {
+  width: 50vw;
+  padding: 20px;
+}
+
+.principal-texto h2 {
+  color: aquamarine;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.principal-texto p {
+  color: darkcyan;
+  text-align: justify;
+  padding: 30px;
+  font-family: "Arvo", serif;
+}
+
+.principal-imagen {
+  background-color: black;
+}
+
+.principal-imagen-picture {
+  padding: 30px;
+  border-radius: 5rem;
+  width: 50vw;
+}
+
+.principal-imagen-picture:hover {
+  -webkit-transform: translate(-300px, 20px);
+          transform: translate(-300px, 20px);
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.footer {
+  background-color: #242323;
+  padding: 50px;
+}
+
+.footer h4 {
+  color: bisque;
+}
+
+.footer h4:hover {
+  color: blue;
+}
+/*# sourceMappingURL=estilo.css.map */
